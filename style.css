@@ -8,13 +8,15 @@ body {
 }
 
 nav {
-  background-color: rgb(255, 176, 176);
+  box-sizing: border-box;
+  background-color: #fcbf59;
   display: grid;
   grid-template-columns: 4fr 2fr;
   align-items: center;
 }
 
 .main-nav {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,14 +24,20 @@ nav {
   height: 100%;
   align-items: center;
 }
+.nav-links {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .logo {
+  min-width: 80px;
   max-width: 150px;
 }
 .log-in {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 10vw 0 10vw;
+  padding: 0 10vw 0 0vw;
+  justify-content: flex-end;
 }
 .hero-section {
   display: flex;
@@ -38,10 +46,10 @@ nav {
 }
 .hero-left {
   box-sizing: border-box;
-  background-color: antiquewhite;
+  background-color: #13c7ec;
   width: 50%;
-  height: 100%;
-  padding: 10vw 4vw 0 10vw;
+  height: auto%;
+  padding: 10vh 10vw 10vh 10vw;
   align-items: center;
   justify-content: center;
 }
@@ -50,6 +58,7 @@ nav {
   box-sizing: border-box;
   width: 50%;
   max-width: 50%;
+  height: auto;
 }
 
 img {
@@ -64,12 +73,25 @@ img {
   padding: 10px;
   border: 10px;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .btn:hover {
-  background: #a5181c;
+  background: #fe0074;
+}
+.secondary-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: #fcbf59;
 }
 
+.secondary-btn:hover {
+  text-decoration-color: #fe0074;
+}
 footer {
   background-color: rgb(255, 176, 176);
   display: flex;
@@ -78,7 +100,7 @@ footer {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 65px;
   font-family: sans-serif;
 }
 
