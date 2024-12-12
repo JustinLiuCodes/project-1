@@ -18,7 +18,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   padding: 0 10vw 0 10vw;
   height: 100%;
   align-items: center;
@@ -33,6 +32,7 @@ nav {
 .hero-section {
   display: flex;
   flex-direction: row;
+  height: 100%;
 }
 .hero-left {
   box-sizing: border-box;
@@ -46,7 +46,6 @@ nav {
 
 .hero-right {
   box-sizing: border-box;
-  background-color: aqua;
   width: 50%;
   max-width: 50%;
 }
@@ -56,8 +55,21 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+.btn {
+  background-color: #00748e;
+  color: aliceblue;
+  padding: 10px;
+  border: 10px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: #a5181c;
+}
+
 footer {
-  background-color: brown;
+  background-color: #00748e;
   display: flex;
   justify-content: center;
   align-items: center;
