@@ -17,7 +17,7 @@ nav {
 .main-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 
   padding: 0 10vw 0 10vw;
   height: 100%;
@@ -35,15 +35,25 @@ nav {
   flex-direction: row;
 }
 .hero-left {
+  box-sizing: border-box;
   background-color: antiquewhite;
   width: 50%;
+  height: 100%;
+  padding: 10vw 4vw 0 10vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-right {
+  box-sizing: border-box;
   background-color: aqua;
   width: 50%;
+  max-width: 50%;
 }
 
+img {
+  width: 100%;
+}
 footer {
   background-color: brown;
   display: flex;
