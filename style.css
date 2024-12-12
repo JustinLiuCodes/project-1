@@ -11,18 +11,36 @@ nav {
   background-color: bisque;
   display: grid;
   grid-template-columns: 4fr 1fr;
+  align-items: center;
 }
 
 .main-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-start;
+  background-color: brown;
+  padding: 0 100px 0 100px;
+  height: 100%;
+  align-items: center;
+}
+.main-nav h4 {
+  padding-right: 40px;
 }
 
+.log-in {
+  padding: 0 100px 0 0px;
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 section {
   background-color: aqua;
 }
 
 footer {
   background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
