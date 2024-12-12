@@ -1,5 +1,28 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: ffffff;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 50px;
+}
+
+nav {
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section {
+  background-color: aqua;
+}
+
+footer {
+  background-color: brown;
 }
